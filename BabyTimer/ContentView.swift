@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let date = Date()
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateStyle = .medium
+    dateFormatter.timeStyle = .none
+    dateFormatter.locale = Locale(identifier: "en_US")
+    print(dateFormatter.string(from: date))
+    
+    
+    
     var body: some View {
         Text("Hello, world!")
             .padding()

@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3120E55827DE735200C80397 /* IntervalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120E55727DE735200C80397 /* IntervalModel.swift */; };
+		3146A76427DFAC580096DAEB /* IntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3146A76327DFAC580096DAEB /* IntervalView.swift */; };
 		31F163E927DDD99E0028ADB5 /* BabyTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F163E827DDD99E0028ADB5 /* BabyTimerApp.swift */; };
 		31F163EB27DDD99E0028ADB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F163EA27DDD99E0028ADB5 /* ContentView.swift */; };
 		31F163ED27DDD99E0028ADB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F163EC27DDD99E0028ADB5 /* Assets.xcassets */; };
 		31F163F027DDD99E0028ADB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F163EF27DDD99E0028ADB5 /* Preview Assets.xcassets */; };
+		31F163F727DDD9BE0028ADB5 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F163F627DDD9BE0028ADB5 /* MainMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3120E55727DE735200C80397 /* IntervalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalModel.swift; sourceTree = "<group>"; };
+		3146A76327DFAC580096DAEB /* IntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalView.swift; sourceTree = "<group>"; };
 		31F163E527DDD99E0028ADB5 /* BabyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F163E827DDD99E0028ADB5 /* BabyTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyTimerApp.swift; sourceTree = "<group>"; };
 		31F163EA27DDD99E0028ADB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31F163EC27DDD99E0028ADB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F163EF27DDD99E0028ADB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31F163F627DDD9BE0028ADB5 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				31F163E827DDD99E0028ADB5 /* BabyTimerApp.swift */,
 				31F163EA27DDD99E0028ADB5 /* ContentView.swift */,
+				31F163F627DDD9BE0028ADB5 /* MainMenuView.swift */,
+				3146A76327DFAC580096DAEB /* IntervalView.swift */,
+				3120E55727DE735200C80397 /* IntervalModel.swift */,
 				31F163EC27DDD99E0028ADB5 /* Assets.xcassets */,
 				31F163EE27DDD99E0028ADB5 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3120E55827DE735200C80397 /* IntervalModel.swift in Sources */,
+				3146A76427DFAC580096DAEB /* IntervalView.swift in Sources */,
 				31F163EB27DDD99E0028ADB5 /* ContentView.swift in Sources */,
 				31F163E927DDD99E0028ADB5 /* BabyTimerApp.swift in Sources */,
+				31F163F727DDD9BE0028ADB5 /* MainMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
